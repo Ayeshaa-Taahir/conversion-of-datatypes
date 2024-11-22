@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Friends' Trip Planning Program
+    
+    // Input: Take a float value from the user 
+    float estimatedCost;
+    cout << "Enter the estimated cost of the trip (in Pkr): ";
+    cin >> estimatedCost;
+
+    // Typecasting: Convert the float to an integer (ignoring decimal part)
+    int roundedCost = static_cast<int>(estimatedCost);
+
+    // Output the converted value
+    cout << "After rounding off, the estimated cost is: $" << roundedCost << endl;
+
+  
+    char startPoint = 'A'; // Let's say 'A' is the starting point for planning activities
+    int additionalStops = 5; // The number of additional stops planned for the trip
+
+    char finalDestination = startPoint + additionalStops;
+
+    // Output the result of the ASCII conversion
+    cout << "Character '" << startPoint << "' + " << additionalStops << " = " 
+         << finalDestination << " (ASCII Value: " << static_cast<int>(finalDestination) << ")" << endl;
+
+    return 0;
+}
