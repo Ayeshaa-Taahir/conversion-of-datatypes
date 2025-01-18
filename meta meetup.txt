@@ -13,7 +13,7 @@ int main() {
     int roundedCost = static_cast<int>(estimatedCost);
 
     // Output the converted value
-    cout << "After rounding off, the estimated cost is: $" << roundedCost << endl;
+    cout << "After rounding off, the estimated cost is: Pkr" << roundedCost << endl;
 
   
     char startPoint = 'A'; // Let's say 'A' is the starting point for planning activities
