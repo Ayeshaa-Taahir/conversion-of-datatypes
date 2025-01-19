@@ -7,7 +7,7 @@ using namespace std;
     double amount, conversionRate;
     cout << "Enter the amount in your currency: ";
     cin >> amount;
-    cout << "Enter the conversion rate to the target currency: "<<endl;
+    cout << "Enter the conversion rate to the target currency: "<<endln;
     cin >> conversionRate;
 
     double convertedAmount = amount * conversionRate;
